@@ -11,28 +11,33 @@
     "liveLink": "https://sanjib-d.github.io/LuitLens/",
     "image": "./assets/images/LuitLens Thumbnail.jpg"
   },
+  
   {
     "id": 2,
     "title": "Ultimate To-Do",
-    "description": "Modern, responsive task management application designed to help you organize your life.",
+    "description": "Intelligent task manager featuring Real-time Cloud Sync, offline Guest Mode (LocalStorage), and gamified progress tracking.",
     "tags": [
-      "React",
-      "Firebase"
+      "Firebase Sync",
+      "LocalStorage",
+      "JavaScript"
     ],
     "githubLink": "https://github.com/Sanjib-D/Ultimate_To-Do",
     "liveLink": "https://sanjib-d.github.io/Ultimate_To-Do/",
     "image": "./assets/images/Ultimate To Do.jpg"
   },
+  
   {
     "id": 3,
     "title": "QR Code Generator",
-    "description": "Another cool project. Highlight performance or design skills here.",
+    "description": "Secure app to generate QR codes with User Authentication and Cloud-Synced history using Firebase.",
     "tags": [
-      "UI/UX",
-      "Web Design"
+      "Firebase Auth",
+      "Firestore",
+      "JavaScript"
     ],
     "githubLink": "https://github.com/Sanjib-D/QR_Code_Generator",
     "liveLink": "https://sanjib-d.github.io/QR_Code_Generator/",
     "image": "./assets/images/QR Code Generator.jpg"
   }
+
 ]
