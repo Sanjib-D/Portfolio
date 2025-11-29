@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About Me | Sanjib Dev</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="container nav-content">
+        <a href="index.html" class="logo"
+          >Dev<span style="color: var(--accent)">.Portfolio</span></a
+        >
+        <ul class="nav-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="projects.html">Projects</a></li>
+          <li>
+            <a href="../../Beginner/Blog Website/Index.html" target="_blank"
+              >Blog
+              <i class="fas fa-external-link-alt" style="font-size: 0.8rem"></i
+            ></a>
+          </li>
+          <li><a href="about.html">About</a></li>
+          <li>
+            <a
+              href="contact.html"
+              class="btn btn-outline"
+              style="padding: 5px 15px"
+              >Contact</a
+            >
+          </li>
+          <li>
+            <button
+              id="theme-toggle"
+              style="
+                background: none;
+                border: none;
+                color: var(--text-primary);
+                cursor: pointer;
+                font-size: 1.2rem;
+                padding: 5px;
+              "
+            >
+              <i class="fas fa-sun"></i>
+            </button>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <section class="section">
+      <div class="container about-grid">
+        <div class="about-text">
+          <h1>About <span style="color: var(--accent)">Me</span></h1>
+
+          <h3>Hello! I'm Sanjib, a developer based in Assam.</h3>
+
+          <p>
+            I enjoy building things that live on the internet. My interest in
+            web development started back in 2023 when I decided to try creating
+            custom scripts using HTML & CSS!
+          </p>
+          <p>
+            Fast-forward to today, I focus on building accessible, inclusive
+            products and digital experiences. When I'm not coding, you can find
+            me exploring Assam or planning my next road trip.
+          </p>
+
+          <button
+            class="btn btn-primary"
+            style="margin-top: 20px; opacity: 0.7; cursor: not-allowed"
+            onclick="alert('Resume is currently being updated. Check back soon!')"
+          >
+            <i class="fas fa-file-pdf"></i> Resume (Coming Soon)
+          </button>
+        </div>
+
+        <div class="about-skills">
+          <h3>Technical Skills</h3>
+
+          <div class="skill-category">
+            <h4>Languages</h4>
+            <div class="tags-container">
+              <span class="tag">JavaScript (ES6+)</span>
+              <span class="tag">HTML5</span>
+              <span class="tag">CSS3</span>
+              <span class="tag">Python</span>
+            </div>
+          </div>
+
+          <div class="skill-category">
+            <h4>Tools & Frameworks</h4>
+            <div class="tags-container">
+              <span class="tag">Firebase</span>
+              <span class="tag">GitHub</span>
+              <span class="tag">VS Code</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <script src="js/theme.js"></script>
+  </body>
+</html>

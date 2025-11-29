@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact | Sanjib Dev</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="container nav-content">
+        <a href="index.html" class="logo"
+          >Dev<span style="color: var(--accent)">.Portfolio</span></a
+        >
+        <ul class="nav-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="projects.html">Projects</a></li>
+          <li>
+            <a href="../../Beginner/Blog Website/Index.html" target="_blank"
+              >Blog
+              <i class="fas fa-external-link-alt" style="font-size: 0.8rem"></i
+            ></a>
+          </li>
+          <li><a href="about.html">About</a></li>
+          <li>
+            <a
+              href="contact.html"
+              class="btn btn-outline"
+              style="padding: 5px 15px"
+              >Contact</a
+            >
+          </li>
+          <li>
+            <button
+              id="theme-toggle"
+              style="
+                background: none;
+                border: none;
+                color: var(--text-primary);
+                cursor: pointer;
+                font-size: 1.2rem;
+                padding: 5px;
+              "
+            >
+              <i class="fas fa-sun"></i>
+            </button>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <section
+      class="section"
+      style="min-height: 80vh; display: flex; align-items: center"
+    >
+      <div class="container contact-wrapper">
+        <div class="contact-info">
+          <h1>Let's <span style="color: var(--accent)">Connect</span></h1>
+          <p>
+            Have a project in mind or just want to say hi? Feel free to reach
+            out!
+          </p>
+
+          <div class="info-item">
+            <i class="fas fa-envelope"></i>
+            <span>work.sanjibdas@gmail.com</span>
+          </div>
+
+          <div class="info-item">
+            <i class="fas fa-map-marker-alt"></i>
+            <span>Guwahati, Assam</span>
+          </div>
+
+          <div class="social-links-big">
+            <a href="https://github.com/Sanjib-D" target="_blank"
+              ><i class="fab fa-github"></i
+            ></a>
+            <a href="https://www.linkedin.com/in/sanjib-dev" target="_blank"
+              ><i class="fab fa-linkedin"></i
+            ></a>
+            <a href="#" target="_blank"><i class="fab fa-twitter"></i></a>
+          </div>
+        </div>
+
+        <div class="contact-form-container">
+          <form id="contactForm">
+            <div class="form-group">
+              <label>Name</label>
+              <input type="text" id="name" required placeholder="John Doe" />
+            </div>
+            <div class="form-group">
+              <label>Email</label>
+              <input
+                type="email"
+                id="email"
+                required
+                placeholder="john@example.com"
+              />
+            </div>
+            <div class="form-group">
+              <label>Message</label>
+              <textarea
+                id="message"
+                rows="5"
+                required
+                placeholder="Your message here..."
+              ></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Send Message</button>
+          </form>
+        </div>
+      </div>
+    </section>
+  </body>
+  <script src="js/theme.js"></script>
+  <script type="module" src="js/firebase.js"></script>
+</html>

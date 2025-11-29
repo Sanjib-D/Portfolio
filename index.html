@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Developer Portfolio</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+    <meta
+      name="description"
+      content="Portfolio of Sanjib Dev - Full Stack Developer, Game Creator, and Assamese Culture Enthusiast."
+    />
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="container nav-content">
+        <a href="index.html" class="logo"
+          >Dev<span style="color: var(--accent)">.Portfolio</span></a
+        >
+        <ul class="nav-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="projects.html">Projects</a></li>
+          <li>
+            <a href="../../Beginner/Blog Website/Index.html" target="_blank"
+              >Blog
+              <i class="fas fa-external-link-alt" style="font-size: 0.8rem"></i
+            ></a>
+          </li>
+          <li><a href="about.html">About</a></li>
+          <li>
+            <a
+              href="contact.html"
+              class="btn btn-outline"
+              style="padding: 5px 15px"
+              >Contact</a
+            >
+          </li>
+          <li>
+            <button
+              id="theme-toggle"
+              style="
+                background: none;
+                border: none;
+                color: var(--text-primary);
+                cursor: pointer;
+                font-size: 1.2rem;
+                padding: 5px;
+              "
+            >
+              <i class="fas fa-sun"></i>
+            </button>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <header class="hero">
+      <div class="container hero-container">
+        <div class="hero-text">
+          <p class="greeting">
+            Hi, I am <span style="color: var(--accent)">Sanjib Das</span>
+          </p>
+          <h1>
+            I build
+            <span class="typewriter-text" style="color: var(--accent)"></span
+            ><span class="cursor">|</span>
+          </h1>
+          <p class="subtext">
+            Full Stack Developer | Creative Thinker | Problem Solver
+          </p>
+          <div class="cta-buttons">
+            <a href="projects.html" class="btn btn-primary">View Work</a>
+            <a href="contact.html" class="btn btn-outline">Let's Talk</a>
+          </div>
+        </div>
+        <div class="hero-visual">
+          <div class="code-box">
+            <span>const dev = {</span><br />
+            <span>&nbsp;&nbsp;name: "You",</span><br />
+            <span>&nbsp;&nbsp;stack: ["JS", "Firebase"]</span><br />
+            <span>};</span>
+          </div>
+        </div>
+      </div>
+    </header>
+    <script src="js/theme.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
