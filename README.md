@@ -2,7 +2,7 @@
 
 A modern, responsive, and performance-focused personal portfolio website. Built with vanilla JavaScript, HTML5, and CSS3, featuring a real-time contact form powered by Firebase.
 
-**Live Demo:** [Click Here](sanjib-d.github.io/Portfolio/)
+**Live Demo:** [Click Here](https://sanjib-d.github.io/Portfolio/)
 
 ## ✨ Features
 
