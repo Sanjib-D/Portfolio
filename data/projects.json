@@ -1,17 +1,17 @@
 [
   {
     "id": 1,
-    "title": "LuitLens (VisionAI)",
-    "description": "AI-powered image identification app focusing on Assamese culture.",
+    "title": "UniCalc",
+    "description": "A web-based hub offering 75+ finance, health, math, and daily-life calculators in one responsive interface.",
     "tags": [
-      "AI API",
-      "Web App"
+      "JavaScript",
+      "CSS",
+      "75+ Calculator"
     ],
-    "githubLink": "https://github.com/Sanjib-D/LuitLens",
-    "liveLink": "https://sanjib-d.github.io/LuitLens/",
-    "image": "./assets/images/LuitLens Thumbnail.jpg"
+    "githubLink": "https://https://github.com/Sanjib-D/UniCalc",
+    "liveLink": "https://sanjib-d.github.io/UniCalc/",
+    "image": "./assets/images/UniCalc.jpg"
   },
-  
   {
     "id": 2,
     "title": "Ultimate To-Do",
@@ -25,7 +25,6 @@
     "liveLink": "https://sanjib-d.github.io/Ultimate_To-Do/",
     "image": "./assets/images/Ultimate To Do.jpg"
   },
-  
   {
     "id": 3,
     "title": "QR Code Generator",
@@ -38,6 +37,17 @@
     "githubLink": "https://github.com/Sanjib-D/QR_Code_Generator",
     "liveLink": "https://sanjib-d.github.io/QR_Code_Generator/",
     "image": "./assets/images/QR Code Generator.jpg"
+  },
+  {
+    "id": 4,
+    "title": "LuitLens (VisionAI)",
+    "description": "AI-powered image identification app focusing on Assamese culture.",
+    "tags": [
+      "AI API",
+      "Web App"
+    ],
+    "githubLink": "https://github.com/Sanjib-D/LuitLens",
+    "liveLink": "https://sanjib-d.github.io/LuitLens/",
+    "image": "./assets/images/LuitLens Thumbnail.jpg"
   }
-
 ]
