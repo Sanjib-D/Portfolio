@@ -5,7 +5,6 @@ document.addEventListener("DOMContentLoaded", () => {
   if (textElement) {
     const phrases = [
       "Web Applications",
-      "Assamese Designs",
       "AI Tools",
       "Interactive Games",
     ];
@@ -65,4 +64,5 @@ document.addEventListener("DOMContentLoaded", () => {
     el.classList.add("hidden-scroll");
     observer.observe(el);
   });
+
 });
